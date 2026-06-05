@@ -54,12 +54,41 @@ npm run build
 - FFmpeg
 - yt-dlp
 - MySQL 8+
+Issues Labels
+
+##   Create labels:
+
+bug
+enhancement
+ui
+backend
+download-engine
+ffmpeg
+yt-dlp
+
 
 ##  License
 
 The YouTuibe Video Downloader is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 "# YouTube_Video_Downloader" 
 
+
+
+##  Architecture Diagram
+
+A simple diagram helps future-you.
+
+Browser
+   ↓
+Laravel Controller
+   ↓
+Job Queue
+   ↓
+yt-dlp
+   ↓
+FFmpeg
+   ↓
+Storage
 
 ##  Another way is  Clone repository
 
