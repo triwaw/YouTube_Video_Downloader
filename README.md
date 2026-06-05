@@ -45,12 +45,24 @@ php artisan migrate
 
 npm run build
 
-Another way is  Clone repository
+
+## Requirements
+
+- PHP 8.2+
+- Composer 2.x
+- Node.js 22+
+- FFmpeg
+- yt-dlp
+- MySQL 8+
+
+##  License
+
+The YouTuibe Video Downloader is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+"# YouTube_Video_Downloader" 
+
+
+##  Another way is  Clone repository
 
 ```bash
 git clone https://github.com/USERNAME/youDownload.git
 
-## License
-
-The YouTuibe Video Downloader is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-"# YouTube_Video_Downloader" 
