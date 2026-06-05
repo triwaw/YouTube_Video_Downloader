@@ -56,6 +56,19 @@ npm run build
 - MySQL 8+
 Issues Labels
 
+
+## Changes Required when you clone this repository 
+
+Replace Database Connection setting in .env file ;  I used MySQL  instead of SQLite 
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3307
+DB_DATABASE=udownloader
+DB_USERNAME=root
+DB_PASSWORD=
+
+
 ##   Create labels:
 
 bug
@@ -72,7 +85,16 @@ yt-dlp
 The YouTuibe Video Downloader is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 "# YouTube_Video_Downloader" 
 
+## Roadmap
 
+- [x] Basic YouTube download
+- [x] Audio merge
+- [x] Progress tracking
+- [ ] Playlist download
+- [ ] Download history
+- [ ] Scheduled downloads
+- [ ] Multi-language UI
+- [ ] Android version
 
 ##  Architecture Diagram
 
