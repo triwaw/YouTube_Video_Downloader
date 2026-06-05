@@ -28,9 +28,24 @@ In order to ensure that the Youtube Video  Dowloader  is welcoming to all, pleas
 - Livewire
 - AlpineJS
 
-## Installation
 
-Clone repository
+# Installation
+
+git clone ...
+
+composer install
+
+npm install
+
+cp .env.example .env
+
+php artisan key:generate
+
+php artisan migrate
+
+npm run build
+
+Another way is  Clone repository
 
 ```bash
 git clone https://github.com/USERNAME/youDownload.git
