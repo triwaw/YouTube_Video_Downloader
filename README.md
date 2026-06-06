@@ -136,10 +136,16 @@ Storage
 ✔ Background Processing via Queue Worker
 ✔ GitHub Source Control
 
-https://github.com/triwaw/YouTube_Video_Downloader
+Version 2:
+- Clone instructions
+- Planned features
 
+Milestone 3:
+- AJAX polling
+- Real-time monitor
 
 ##  code block
 
 ```bash
 git clone https://github.com/triwaw/youDownload.git
+
