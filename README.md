@@ -119,7 +119,25 @@ FFmpeg
    ↓
 Storage
 
-##  Another way is  Clone repository
+##  Version 2  Features 
+
+✔ Laravel Authentication (Breeze)
+✔ Download Database
+✔ Download Queue Jobs
+✔ yt-dlp Integration
+✔ FFmpeg Integration
+✔ Video Analysis Screen
+✔ Resolution Selection
+✔ Download History
+✔ File Download
+✔ Real-time AJAX Status Polling
+✔ Progress Database Fields
+✔ Video Title as Filename
+✔ Background Processing via Queue Worker
+✔ GitHub Source Control
+
+
+##  code block
 
 ```bash
 git clone https://github.com/USERNAME/youDownload.git
