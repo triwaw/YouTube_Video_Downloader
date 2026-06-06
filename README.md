@@ -79,6 +79,13 @@ download-engine
 ffmpeg
 yt-dlp
 
+##   Issues for Planned Features 
+#1 Auto Refresh Download Progress
+#2 Playlist Download Support
+#3 Download History
+#4 Background Queue Processing
+#5 Audio-Only Download Mode
+#6 Download Retry Logic
 
 ##  License
 
