@@ -51,11 +51,19 @@
                                     required
                                 >
 
-                                <strong>
-                                    
-									
+                            <strong>
 									{{ $format['label'] }}
-                                </strong>
+							</strong>
+
+								@if(!empty($format['filesize']))
+									<br>
+									<small>
+										{{ number_format(
+											$format['filesize'] / 1024 / 1024,
+											2
+										) }} MB
+									</small>
+								@endif
 
                                 |
 
