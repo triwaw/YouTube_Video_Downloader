@@ -7,54 +7,139 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+## About Video Downloader 
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
-
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+Youtube Video  Dowloader is a web application  with expressive, elegant syntax. 
 
 ## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Thank you for considering using or contributing to Youtube Video  Dowloader ! 
 
 ## Code of Conduct
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+In order to ensure that the Youtube Video  Dowloader  is welcoming to all, please review and abide by the 
 
-## Security Vulnerabilities
+## Technology Stack
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+- Laravel 12
+- PHP 8.2+
+- MySQL / MariaDB
+- Filament 4
+- Livewire
+- AlpineJS
 
-## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+# Installation
+
+git clone ...
+
+composer install
+
+npm install
+
+cp .env.example .env
+
+php artisan key:generate
+
+php artisan migrate
+
+npm run build
+
+
+## Requirements
+
+- PHP 8.2+
+- Composer 2.x
+- Node.js 22+
+- FFmpeg
+- yt-dlp
+- MySQL 8+
+Issues Labels
+
+
+## Changes Required when you clone this repository 
+
+Replace Database Connection setting in .env file ;  I used MySQL  instead of SQLite 
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3307
+DB_DATABASE=udownloader
+DB_USERNAME=root
+DB_PASSWORD=
+
+
+##   Create labels:
+
+bug
+enhancement
+ui
+backend
+download-engine
+ffmpeg
+yt-dlp
+
+##   Issues for Planned Features 
+#1 Auto Refresh Download Progress
+#2 Playlist Download Support
+#3 Download History
+#4 Background Queue Processing
+#5 Audio-Only Download Mode
+#6 Download Retry Logic
+
+##  License
+
+The YouTuibe Video Downloader is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 "# YouTube_Video_Downloader" 
+
+## Roadmap
+
+- [x] Basic YouTube download
+- [x] Audio merge
+- [x] Progress tracking
+- [ ] Playlist download
+- [ ] Download history
+- [ ] Scheduled downloads
+- [ ] Multi-language UI
+- [ ] Android version
+
+##  Architecture Diagram
+
+A simple diagram helps future-you.
+
+Browser
+   ↓
+Laravel Controller
+   ↓
+Job Queue
+   ↓
+yt-dlp
+   ↓
+FFmpeg
+   ↓
+Storage
+
+##  Version 2  Features 
+
+✔ Laravel Authentication (Breeze)
+✔ Download Database
+✔ Download Queue Jobs
+✔ yt-dlp Integration
+✔ FFmpeg Integration
+✔ Video Analysis Screen
+✔ Resolution Selection
+✔ Download History
+✔ File Download
+✔ Real-time AJAX Status Polling
+✔ Progress Database Fields
+✔ Video Title as Filename
+✔ Background Processing via Queue Worker
+✔ GitHub Source Control
+
+https://github.com/triwaw/YouTube_Video_Downloader
+
+
+##  code block
+
+```bash
+git clone https://github.com/triwaw/youDownload.git
