@@ -62,14 +62,20 @@ Issues Labels
 Replace Database Connection setting in .env file ;  I used MySQL  instead of SQLite 
 
 DB_CONNECTION=mysql
+
 DB_HOST=127.0.0.1
+
 DB_PORT=3307
+
 DB_DATABASE=udownloader
+
 DB_USERNAME=root
+
 DB_PASSWORD=
 
 
-##   Create labels:
+
+##   Issues:
 
 bug
 enhancement
@@ -118,6 +124,14 @@ yt-dlp
 FFmpeg
    ↓
 Storage
+
+## Screenshots
+
+![Home](docs/screenshots/home-page.png)
+
+![Download](docs/screenshots/video-info.png)
+
+
 
 ##  Version 2  Features 
 
